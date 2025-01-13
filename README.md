@@ -1,10 +1,9 @@
 Task2
 
-<!--
 function fibonacci(n) {
-    if (n <= 0) return 0;
-    if (n === 1) return 0;
-    if (n === 2) return 1;
+if (n <= 0) return 0;
+if (n === 1) return 0;
+if (n === 2) return 1;
 
     let f1 = 0; // f(0)
     let f2 = 1; // f(1)
@@ -17,6 +16,7 @@ function fibonacci(n) {
     }
 
     return fn;
+
 }
 
-console.log(fibonacci(4));  -->
+console.log(fibonacci(4));
